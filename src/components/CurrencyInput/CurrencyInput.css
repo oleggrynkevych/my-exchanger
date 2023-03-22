@@ -1,0 +1,36 @@
+.group{
+    width: 250px;
+    height: 40px;
+    background: rgb(62, 60, 60);
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+input, select {
+    height: 100%;
+    background: none;
+    border: 0; 
+    color: antiquewhite;
+}
+
+input:focus, select:focus {
+    outline: none;
+}
+
+input {
+    width: 55%;
+    padding-left: 10%;
+    font-weight: 700;
+}
+
+select{
+    width: 29%;
+    padding-right: 5%;
+    font-weight: 900;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
